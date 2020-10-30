@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription" content="welcome to my site">
+    <title>selectors</title>
+    <script></script>
+    <style>
+      div.parent{
+         background: blue;
+         color: white;
+         padding: 10px;
+      } 
+      div.parent> div { /* > means apply the effect on the direct childs only */
+        background: red;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+      }
+       div.parent p{
+        background:green;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+      } 
+      .parent aside{
+        background: black;
+        color: white;
+        margin: 10px;
+        padding: 10px;
+      }
+
+      p~div{ /* all div after p */
+        background: aqua;
+        color: black;
+      }
+
+      /* p+div{ /* paragraph and one div directly after it 
+        background: aqua;
+        color: black;
+      } */
+
+       /* *{
+         border: 10px solid red; * means apply on every thing.
+       } */
+    </style>
+  </head>
+  <body>
+
+    <div class="parent">
+      <h1> this is parent div</h1>
+      <aside>this is child 
+        <div>not direct child</div>
+      </aside>
+      <p>this is child paragraph</p>
+      <p>this is child paragraph</p>
+      <div>this is child div(direct child)</div>
+      <div>this is child div(direct child)</div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription" content="welcome to my site">
+    <title>attributes</title>
+    <script></script>
+    <style>
+     @media screen { /*control the layout style*/
+       div
+       {
+        color: red;
+      font-size: 40px;
+       }
+     }
+     @media print {
+       div
+       {
+        color: rgb(207, 103, 103);
+      font-size: 20px;
+       }
+     }
+     
+     a[target="_blank"]
+    {
+      color: red;
+      display: block;
+    }
+    img[title="image"]
+    {
+      border-radius: 30px;
+      display: block;
+    }
+    input{
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+
+    }
+    input[type="search"]{
+     color: darkblue;
+
+    }
+
+    </style>
+  </head>
+  <body>
+    <div>this is css text</div>
+
+    <a href="http://www.google.com" target="_self" >google</a>
+    <a href="http://www.google.com" target="_blank">google 23</a>
+
+    <img src="http://placehold.it/100/F00/FFF" title="image" alt="this is test"/>
+
+    <input type="text" name="xx"/>
+    <input type="password" name="xxp"/>
+    <input type="search" name="xxs"/>
+
+  </body>
+</html>

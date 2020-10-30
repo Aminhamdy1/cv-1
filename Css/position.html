@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription" content="welcome to my site">
+    <title>position</title>
+    <link rel="stylesheet" href="">
+    <script></script>
+    <style>
+      body{
+        height: 800px;
+        background: #DDD;
+      }
+      .fixed{
+        background: green;
+        color: white;
+        padding: 10px ;
+        position: fixed;;
+        top: 100px;
+        left:2%;
+        z-index: 100;
+      }
+      .parent{
+        width: 400px;
+        height: 400px;
+        background: #FFF;
+        position: relative; 
+      }
+      .abs{
+        background: #F00;
+        padding: 10px;
+        top: 100px;
+        right:2%;
+        position: absolute;/*inside the container of relative*/
+
+      }
+    </style>
+  <head>
+  <body>
+    <div class="fixed">this is fixed div</div>
+    <div class="parent">this is parent div
+      <div class="abs">this is abs</div>
+    </div>
+  </body>

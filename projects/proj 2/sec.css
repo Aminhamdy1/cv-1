@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  /*take from the project area */
+  font-family: 'Varela Round', sans-serif;
+  
+}
+.body{
+  width: 100%;
+  background-color: rgb(199, 197, 197);
+}
+.clear{
+  clear: both;
+}
+.contain{
+  margin: 20px 0 20px 200px;
+  background: rgb(255, 255, 255);
+  box-shadow: 10px 10px 5px grey;
+} 
+.photo{
+  background: #999;
+}
+.personal-info{
+  width: 300px;
+  background: black;
+  color: white;
+  float: left;
+  width: 30%;
+}
+.photo img{
+  text-align: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 20px 90px;
+}
+.info{
+  margin:30px 40px 80px 40px;
+  text-transform: capitalize;
+}
+.info .about-me h3{
+  margin-bottom: 15px;
+}
+.info .about-me{
+  margin-bottom: 30px;
+  line-height: 1.5;
+
+}
+.info .contact-me h3{
+  margin-bottom: 15px;
+}
+.info .contact-me{
+  margin-bottom: 30px;
+  line-height: 1.5;
+
+}
+.info .contact-me i{
+  display: block;
+  margin: 5px;
+  padding: 5px;
+}
+.info .contact-me  span{
+  margin-left: 10px;
+}
+.info .refrence h3{
+  margin-bottom: 15px;
+}
+.info .refrence{
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+.info .refrence span{
+  display: block;
+  font-size: 10px;
+  line-height: 20px;
+}
+.skills {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  float: left;
+  width: 50%;
+}
+.skills h1{
+  margin-bottom: 10px;
+}
+.skills h2{
+  margin-bottom: 50px;
+}
+.skills h3{
+  margin-bottom: 20px;
+}
+.career{
+  margin-bottom: 50px;
+}
+.career-work{
+  margin-bottom: 20px;
+}
+.career-work .first-career{
+  float: left;
+  width: 70%;
+}
+.career-work  .date-career{
+float: left;
+
+}
+.first-two{
+  margin-bottom: 30px;
+}
+/*.first-two .field1{
+  width: 15%; height: 18px; background-color: #f44336; 
+padding-right: 20px;
+} */
+.first-two .sec{
+margin-left: 145px;
+}
+.first-two .third{
+  margin-left: 155px;
+  }
+  .first-two .fourth{
+    margin-left: 125px;
+    }
+.first-two-1{
+  
+  border: 1px solid black;
+  width: 30%;
+  height: 19px;
+  float: left;
+}
+.first-two-1 .rate1{
+  width: 60%; height: 18px; background-color: #070707
+}
+.first-two-2{
+  
+  border: 1px solid black;
+  width: 30%;
+  height: 19px;
+  float: left;
+  margin-left: 50px;
+}
+.first-two-2 .rate2{
+  width: 85%; height: 18px; background-color: #070707
+}
+.first-two-1 .rate3{
+  width: 80%; height: 18px; background-color: #070707
+}
+.first-two-2 .rate4{
+  width: 55%; height: 18px; background-color: #070707
+}
+.first-two-1 .rate5{
+  width: 65%; height: 18px; background-color: #070707
+}
+
+.first-two-2 .rate6{
+  width: 70%; height: 18px; background-color: #070707
+}
+.education h3{
+  margin-top: 20px;
+}
+.eduaction1 .date{
+  float: left;
+  width:15%;
+}
+.eduaction1{
+  width:250%;
+  margin-bottom: 30px;
+}
+

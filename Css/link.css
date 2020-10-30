@@ -1,0 +1,17 @@
+a
+{
+  color: blue;
+  text-decoration: cornsilk;
+}
+a:hover
+{
+  color: red;
+  font-weight: bold;
+  text-decoration: line-through;
+}
+a:active
+{
+  color: aqua;
+  text-decoration: none;
+  font-weight: normal;
+}

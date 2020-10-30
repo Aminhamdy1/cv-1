@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="discription" content="welcome to my site">
+    <title>dimensions</title>
+    <link rel="stylesheet" href="">
+    <script></script>
+    <style>
+      /* hight is almost like the width */
+      .width{
+        background: blue;
+        width:500px;
+      }
+      .child{
+        background: rgb(209, 178, 138);
+        min-width: 10px;
+        max-width: 200px;
+        height: 300px;
+        padding-right: 0;
+
+      }
+      button{
+         background:white;
+         color: black;
+         min-width: 10px;
+      }
+
+      a{
+        display: block;
+         /*display: none;   remove the element  and his place */
+      }
+      p{
+        display: inline;
+      }
+
+    </style>
+  </head>
+  <body>
+    <a href="http://www.facebook.com">facebook</a>
+    <a href="http://www.google.com">google</a>
+    <a href="http://www.msn.com">msn</a>
+    <image src="http://placehold.it/100/100"alt=""/>
+    <image src="http://placehold.it/100/100"alt=""/>
+    <image src="http://placehold.it/100/100"alt=""/>
+    <br>
+    <p>this is p</p>
+    <p>this is p</p>
+    <br>
+    <div class="width">this is width 
+      <div class="child">this is div for dimensions</div>
+    </div>
+    <button>click</button>
+  </body>
+</html>

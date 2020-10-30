@@ -1,0 +1,29 @@
+div
+{
+  /*div properties*/
+  width: 300px;
+  background: #DDD;
+  margin: 10px 0;
+  padding: 5px;
+   /*text properties*/
+  color: #0400ff;
+  direction: ltr;  
+  letter-spacing:normal; /*space between letters*/
+  line-height: normal;  /*space between lines*/
+  text-align:left;
+  text-decoration: line-through;
+  text-indent: 20px; /*space in the start of the line*/
+  text-transform: uppercase;
+  white-space: normal;
+  word-spacing: normal; /*space between words*/
+
+
+}
+a
+{
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: underline;
+}
